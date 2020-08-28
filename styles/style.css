@@ -140,6 +140,11 @@ main {
 #window-wrap {
   margin-top: 9em;
 }
+@media (max-width: 400px) {
+  #window-wrap {
+    margin-top: 3em;
+  }
+}
 #welcome-window-1,
 #welcome-window-2 {
   padding-left: 1em;
