@@ -138,11 +138,11 @@ main {
   color: #cc6666;
 }
 #window-wrap {
-  margin-top: 9em;
+  margin-top: 2em;
 }
-@media (max-width: 400px) {
+@media (min-width: 400px) {
   #window-wrap {
-    margin-top: 3em;
+    margin-top: 9em;
   }
 }
 #welcome-window-1,
