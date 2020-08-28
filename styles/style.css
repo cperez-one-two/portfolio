@@ -107,12 +107,13 @@ main {
   padding-left: 1em;
   width: 90vw;
   /*margin: 0 auto; */
-  margin-top: 9em;
+  margin-top: 3em;
 }
+
 @media (min-width: 500px) {
   #welcome-section {
     width: 70vw;
-    margin: 0 auto;
+    margin: 9em auto 0;
   }
 }
 @media (min-width: 800px) {
