@@ -318,13 +318,25 @@ main {
   background-color: #b5bd68;
 }
 .bash {
-  width: 55%;
+  width: 57%;
+  font-weight: bold;
+  color: #3F3B54;
+  background-color: #b5bd68;
+}
+.postgres {
+  width: 60%;
+  font-weight: bold;
+  color: #3F3B54;
+  background-color: #b5bd68;
+}
+.bootstrap {
+  width: 50%;
   font-weight: bold;
   color: #3F3B54;
   background-color: #b5bd68;
 }
 .vue {
-  width: 45%;
+  width: 65%;
   font-weight: bold;
   color: #3F3B54;
   background-color: #b5bd68;
