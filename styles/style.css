@@ -3,13 +3,15 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 body {
   margin: 0;
-  font-family: 'Inconsolata', monospace;
-  color: #B3B0BF;
+  font-family: "Inconsolata", monospace;
+  color: #b3b0bf;
   background-color: #5b557a;
 }
 ul {
@@ -18,10 +20,10 @@ ul {
 }
 a {
   text-decoration: none;
-  color: #958CBA;
+  color: #958cba;
 }
 a:visited {
-  color: #958CBA;
+  color: #958cba;
 }
 h2 {
   margin: 0 0 0.2em 0;
@@ -36,9 +38,9 @@ h2 {
   right: 0.5em;
   display: inline-block;
   margin: 0 auto;
-  border: 1px solid #19181D;
-  background-color: #3F3B54;
-  box-shadow: 3px 3px 0 rgba(0,0,0,0.5);
+  border: 1px solid #19181d;
+  background-color: #3f3b54;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.5);
   z-index: 5;
 }
 #navbar ul {
@@ -47,10 +49,10 @@ h2 {
 }
 #navbar li a {
   padding: 1em;
-  color: #B3B0BF;
+  color: #b3b0bf;
 }
 #navbar li a:hover {
-  background-color: #19181D;
+  background-color: #19181d;
 }
 @media (max-width: 450px) {
   #navbar {
@@ -74,10 +76,10 @@ h2 {
 /*-- !navbar --*/
 
 /*-- main --*/
-main {
+/* main { */
 /*  margin-top: 30px; */
 /*   font-family: 'Raleway', sans-serif; */
-}
+/* } */
 .main-section {
   min-height: 100vh;
   display: flex;
@@ -102,7 +104,7 @@ main {
 /*-- welcome --*/
 #welcome-section {
   display: block;
-/*   text-align: center; */
+  /*   text-align: center; */
   background-color: #5b557a;
   padding-left: 1em;
   width: 90vw;
@@ -126,10 +128,10 @@ main {
   }
 }
 .windows {
-  border: 1px solid #3F3B54;
+  border: 1px solid #3f3b54;
   display: block;
   margin: 1em auto;
-  box-shadow: 3px 3px 0 rgba(0,0,0,0.5);
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.5);
 }
 #online {
   color: #b5bd68;
@@ -165,8 +167,8 @@ main {
 }
 #welcome-section h1 {
   font-size: 30px;
-  font-family: 'Ubuntu', sans-serif;
-  color: #B3B0BF;
+  font-family: "Ubuntu", sans-serif;
+  color: #b3b0bf;
 }
 #welcome-img-online {
   position: relative;
@@ -185,13 +187,13 @@ main {
   width: 180px;
   left: 2em;
   top: -4em;
-/*   bottom: 3em; */
+  /*   bottom: 3em; */
 }
 @media (min-width: 500px) {
   #welcome-img-online {
     width: 250px;
     position: relative;
-  /*   top: 2em; */
+    /*   top: 2em; */
     right: 3em;
   }
   #welcome-img-offline {
@@ -207,7 +209,7 @@ main {
 .project-tile {
   display: flex;
   flex-direction: column;
-  border: 1px solid #3F3B54;
+  border: 1px solid #3f3b54;
   padding: 1em 1em 0.2em;
   width: 275px;
   /*   margin: 0.5em auto; */
@@ -223,15 +225,15 @@ main {
   display: block;
   margin: 0 auto;
   max-width: 250px;
-  border: 1px solid #3F3B54;
+  border: 1px solid #3f3b54;
 }
 .project-tile p {
   margin-bottom: 0;
 }
 .project-link,
 .project-link:visited {
-  color: #B3B0BF;
-  background-color: #3F3B54;
+  color: #b3b0bf;
+  background-color: #3f3b54;
   padding: 0.2em 1em;
   margin-bottom: 0.3em;
 }
@@ -269,7 +271,7 @@ main {
 .skill-bar {
   margin-bottom: 0.2em;
   padding-right: 5px;
-/*   width: 100%; */
+  /*   width: 100%; */
 }
 #blacklisted p {
   margin: 0;
@@ -277,22 +279,22 @@ main {
   color: #4f2020;
 }
 .html {
-  width: 90%;
+  width: 80%;
   font-weight: bold;
   background-color: #5a8247;
 }
 .css {
-  width: 90%;
+  width: 80%;
   font-weight: bold;
   background-color: #5a8247;
 }
 .js {
-  width: 95%;
+  width: 80%;
   font-weight: bold;
   background-color: #5a8247;
 }
 .java {
-  width: 85%;
+  width: 80%;
   font-weight: bold;
   background-color: #5a8247;
 }
@@ -307,63 +309,63 @@ main {
   background-color: #5a8247;
 }
 .git {
-  width: 75%;
+  width: 80%;
   font-weight: bold;
   background-color: #5a8247;
 }
 .spring {
-  width: 50%;
+  width: 65%;
   font-weight: bold;
-  color: #3F3B54;
+  color: #3f3b54;
   background-color: #b5bd68;
 }
 .bash {
-  width: 57%;
+  width: 65%;
   font-weight: bold;
-  color: #3F3B54;
+  color: #3f3b54;
   background-color: #b5bd68;
 }
 .postgres {
-  width: 60%;
+  width: 65%;
   font-weight: bold;
-  color: #3F3B54;
+  color: #3f3b54;
   background-color: #b5bd68;
 }
 .bootstrap {
-  width: 50%;
+  width: 65%;
   font-weight: bold;
-  color: #3F3B54;
+  color: #3f3b54;
   background-color: #b5bd68;
 }
 .vue {
   width: 65%;
   font-weight: bold;
-  color: #3F3B54;
+  color: #3f3b54;
   background-color: #b5bd68;
 }
 .tailwind {
-  width: 43%;
+  width: 65%;
   font-weight: bold;
-  color: #3F3B54;
+  color: #3f3b54;
   background-color: #b5bd68;
 }
 .python {
-  width: 38%;
+  width: 45%;
   font-weight: bold;
   background-color: #ac5656;
 }
-.kotlin {
-  width: 30%;
+.scala {
+  width: 45%;
   font-weight: bold;
   background-color: #ac5656;
 }
-.lisp {
-  width: 30%;
+.clang {
+  width: 45%;
   font-weight: bold;
   background-color: #ac5656;
 }
-.php {
-  width: 20%;
+.lua {
+  width: 45%;
   font-weight: bold;
   background-color: #ac5656;
 }
@@ -381,13 +383,13 @@ main {
   display: flex;
   flex-direction: column;
   width: 40%;
-  background-color: #3F3B54;
+  background-color: #3f3b54;
 }
 .contact-link {
   padding-left: 0.5em;
 }
 #profile-link {
-  color: #958CBA;
+  color: #958cba;
 }
 .contact-link:hover {
   background-color: #19181d;
@@ -399,8 +401,8 @@ main {
   position: relative;
   text-align: center;
   bottom: 4em;
-  background-color: #3F3B54;
+  background-color: #3f3b54;
 }
 #footer:hover {
-    background-color: #19181d;
+  background-color: #19181d;
 }
