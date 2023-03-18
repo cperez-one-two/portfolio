@@ -263,7 +263,7 @@ h2 {
 /*-- skills --*/
 .skills {
     margin: 1em auto;
-    padding: 1em 0 1em 1em;
+    padding: 1em;
     max-width: 350px;
 }
 .logo {
@@ -281,6 +281,7 @@ h2 {
 }
 .skill-ranking {
     padding-bottom: 1em;
+    text-align: center;
 }
 .skill-bar {
     margin-bottom: 0.2em;
