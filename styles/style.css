@@ -127,6 +127,11 @@ h2 {
         bottom: 9em;
     }
 }
+#welcome-content-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .windows {
     border: 1px solid #3f3b54;
     display: block;
@@ -266,6 +271,13 @@ h2 {
     padding: 1em;
     max-width: 350px;
 }
+@media (min-width: 650px) {
+    .skills {
+        margin: 1em auto;
+        padding: 1em;
+        max-width: 600px;
+    }    
+}
 .logo {
     display: flex;
     flex-direction: column;
@@ -282,6 +294,11 @@ h2 {
 .skill-ranking {
     padding-bottom: 1em;
     text-align: center;
+}
+.skill-ranking-tagline {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 80%;
 }
 .skill-bar {
     margin-bottom: 0.2em;
