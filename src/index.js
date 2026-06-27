@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const datetime = new Date().toISOString();
+    const d = new Date();
     const times = document.querySelectorAll('time');
     for (let time of times) {
-       time.innerText = datetime;
+        time.innerText = `${d.toTimeString().slice(0,8)}`;
     }
 })
